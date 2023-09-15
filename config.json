@@ -1,0 +1,116 @@
+{
+    "bot": {
+        "token" : "WKLEJSWOJTOKEN",
+        "prefix" : "%",
+        "id_serwera" : "IDSERWERADC",
+        "ip" : "WKLEJSWOJEIP",
+        "maxsloty" : "64",
+        "MySQL": {
+            "ip" : "TWOJEIPBAZY",
+            "login" : "TWOJLOGINDOBAZY",
+            "haslo" : "HASLODOBAZY",
+            "baza" : "NAZWABAZY"
+        }
+    }, 
+    "status": {
+        "on" : true,
+        "gracze" : true,
+        "aktualizacja" : "1000",
+        "status" : "CO MA POKAZYWAC W STATUSIE",
+        "typstatusu" : "PLAYING"
+    },
+    "zaćmienia": {
+        "on" : true,
+        "webhook" : "https://discord.com/api/webhooks/",
+        "wiadomość" : "Wyspa On Zapraszamy!",
+        "grafika" : "https://cdn.discordapp.com/attachments/",
+        "colour" : "#fffff",
+        "foother" : "Timmi", 
+        "ping" : false,
+        "jakiping" : "", 
+        "aktualizacja" : "1000"
+    },
+    "propozycje": {
+        "on" : true,
+        "kanal_id" : "IDKANALU",
+        "react1" : "✅",
+        "react2" : "❌",
+        "embed" : true,
+        "webhook" : "https://discord.com/api/webhooks/",
+        "embedbuilder": {
+            "setColor" : "#fffff",
+            "setAuthor" : "Nowa Propozycja!",
+            "ProfilePic" : true,
+            "setDescription" : "{PROPOZYCJA}",
+            "setFooter" : "Timmi",
+            "setTimestamp" : true
+        }
+    },
+    "welcome": {
+        "on" : true,
+        "kanal_id" : "IDKANALU",
+        "img" : 1,
+        "embed": {
+            "colour" : "#4d79ff",
+            "desc" : "Witamy na serwerze **AioRP 🛫**!",
+            "footer" : "Timmi"
+        },
+        "embed2": {
+            "colour" : "#4d79ff",
+            "desc" : "Żegnaj Bratku 😥",
+            "footer" : "Timmi"
+        }
+    },
+    "antilink": {
+        "on" : true,
+        "logi" : true,
+        "logi_id" : "IDKANALU",
+        "wiadomość" : "<@{USER}> nice try mordzia 🛫"
+    },
+    "discordid": {
+        "on" : true,
+        "id_kanalu" : "IDKANALU"
+    },
+    "ticket": {
+        "on" : true,
+        "id_kanalu" : "IDKANALU",
+        "category" : "IDKATEGORI"
+    },
+    "weryfikacja": {
+        "on" : true,
+        "id_kanalu" : "IDKANALU",
+        "id_rangi" : "IDRANGI"
+    },
+    "statystyki": {
+        "on" : false,
+        "id_kanału" : "IDKANALU",
+        "wiadomość" : "AioRP: {ONLINE}/{SLOTY}",
+        "aktualizacja" : "300000"
+    },
+    "statystyki_discord": {
+        "on" : false,
+        "id_kanału" : "IDKANALU",
+        "wiadomość" : "Osoby: {MEMBERS}",
+        "aktualizacja" : "300000"
+    },
+    "DarkWeb": {
+        "on" : true,
+        "id_kanalu" : "IDKANALU",
+        "webhook" : "https://discord.com/api/webhooks/",
+        "logi": {
+            "on" : true,
+            "id_kanalu" : "IDKANALU"
+        }
+    },
+    "losuj": {
+        "id_poczekalni" : "IDKANALU",
+        "id_kanalu_dla_komend" : "IDKANALU"
+    },
+    "wl": {
+        "id_kanalu_dla_komend" : "IDKANALU",
+        "ranga" : "IDRANGI"
+    },
+    "embed": {
+        "imagre" : "https://cdn.discordapp.com/attachments/"
+    }
+}
